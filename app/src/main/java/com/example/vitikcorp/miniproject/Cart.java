@@ -62,7 +62,7 @@ public class Cart extends AppCompatActivity {
                 if(cart.size()>0)
                     showAlertDialog();
                 else
-                    Toast.makeText(Cart.this, "Cart is Empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Cart.this,  "Cart is Empty", Toast.LENGTH_SHORT).show();
             }
         });
         loadListProduct();

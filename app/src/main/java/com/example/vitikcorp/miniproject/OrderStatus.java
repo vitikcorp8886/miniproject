@@ -17,7 +17,7 @@ import com.example.vitikcorp.miniproject.Cart.*;
 
 import org.w3c.dom.Text;
 
-import static com.example.vitikcorp.miniproject.Cart.od;
+//import static com.example.vitikcorp.miniproject.Cart.od;
 
 public class OrderStatus extends AppCompatActivity {
 
@@ -44,10 +44,10 @@ public class OrderStatus extends AppCompatActivity {
         layoutManager=new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        if(getIntent()==null)
-            loadOrders(Common.currentUser.getPhone());
-        else
-            loadOrders(getIntent().getStringExtra("userPhone"));
+        //if(getIntent()==null)
+           loadOrders(Common.currentUser.getPhone());
+        //else
+           // loadOrders(getIntent().getStringExtra("userPhone"));
 
 
     }
@@ -68,5 +68,6 @@ public class OrderStatus extends AppCompatActivity {
             }
         };
         recyclerView.setAdapter(adapter);
+
     }
 }
