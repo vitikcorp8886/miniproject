@@ -101,12 +101,12 @@
                             android:id="@+id/product_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="left"
                             android:layout_marginTop="8dp"
                             android:padding="12dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_gravity="left"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
@@ -126,4 +126,5 @@
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+
 </android.support.design.widget.CoordinatorLayout>
